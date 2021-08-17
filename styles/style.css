@@ -63,10 +63,24 @@ main {
     grid-row: 1 / -1;
 }
 
+.menu-bar .links {
+    padding-left: 5px;
+}
+
+.menu-bar .links a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-bar .links a li {
+    padding-bottom: 15px;
+}
+
 .main-content {
     background-color: yellowgreen;
     grid-column: 3 / -1;
     grid-row: 1 / -1;
+    padding: 8px;
 }
 
 #profile {
@@ -79,13 +93,15 @@ main {
 
 .profile-container .name,
 .education-container .flex,
-.experience-container .jobs {
+.experience-container .jobs,
+.skills-container .my-skills {
     display: flex;
 }
 
 .profile-container .name>*,
 .education-container .flex>*,
-.experience-container .jobs>* {
+.experience-container .jobs>*,
+.skills-container .my-skills>* {
     width: 100%;
 }
 
@@ -99,6 +115,7 @@ main {
 
 #hobbies {
     background-color: blanchedalmond;
+    padding: 10px;
 }
 
 
